@@ -150,7 +150,7 @@ class fdups:
         print "(y for Yes, anything else for No)"
         if raw_input() == 'y':
             for f in self.files:
-                print self.join(f[0], "\\", f[1])
+                print self.join(f[0], f[1])
 
 
 
